@@ -10,22 +10,22 @@ export default function ContactPage() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-primary text-white py-20">
-        <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-center">Contact Us</h1>
+      <section className="py-20 text-white bg-primary">
+        <div className="container px-4 mx-auto">
+          <h1 className="text-4xl font-bold text-center md:text-5xl">Contact Us</h1>
         </div>
       </section>
 
       {/* Contact Section */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="container px-4 mx-auto">
+          <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
             {/* Contact Form */}
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <h2 className="text-2xl font-bold mb-6">Get in Touch</h2>
+            <div className="p-8 bg-white rounded-lg shadow-lg">
+              <h2 className="mb-6 text-2xl font-bold">Get in Touch</h2>
               <form className="space-y-6">
                 <div>
-                  <label htmlFor="name" className="block text-gray-700 mb-2">Name</label>
+                  <label htmlFor="name" className="block mb-2 text-gray-700">Name</label>
                   <input
                     type="text"
                     id="name"
@@ -34,7 +34,7 @@ export default function ContactPage() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-gray-700 mb-2">Email</label>
+                  <label htmlFor="email" className="block mb-2 text-gray-700">Email</label>
                   <input
                     type="email"
                     id="email"
@@ -43,7 +43,7 @@ export default function ContactPage() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="phone" className="block text-gray-700 mb-2">Phone</label>
+                  <label htmlFor="phone" className="block mb-2 text-gray-700">Phone</label>
                   <input
                     type="tel"
                     id="phone"
@@ -52,7 +52,7 @@ export default function ContactPage() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="message" className="block text-gray-700 mb-2">Message</label>
+                  <label htmlFor="message" className="block mb-2 text-gray-700">Message</label>
                   <textarea
                     id="message"
                     rows={4}
@@ -62,7 +62,7 @@ export default function ContactPage() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full bg-primary text-white py-3 rounded-lg hover:bg-opacity-90 transition"
+                  className="w-full py-3 text-white transition rounded-lg bg-primary hover:bg-opacity-90"
                 >
                   Send Message
                 </button>
@@ -71,10 +71,10 @@ export default function ContactPage() {
 
             {/* Contact Information */}
             <div>
-              <h2 className="text-2xl font-bold mb-6">Contact Information</h2>
+              <h2 className="mb-6 text-2xl font-bold">Contact Information</h2>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <FaPhone className="text-primary text-xl mt-1" />
+                  <FaPhone className="mt-1 text-xl text-primary" />
                   <div>
                     <h3 className="font-semibold">Phone Numbers</h3>
                     <p className="text-gray-600">+91 9413545517</p>
@@ -82,21 +82,21 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <FaEnvelope className="text-primary text-xl mt-1" />
+                  <FaEnvelope className="mt-1 text-xl text-primary" />
                   <div>
                     <h3 className="font-semibold">Email</h3>
                     <p className="text-gray-600">pooniapackerandmovers@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <FaMapMarkerAlt className="text-primary text-xl mt-1" />
+                  <FaMapMarkerAlt className="mt-1 text-xl text-primary" />
                   <div>
                     <h3 className="font-semibold">Address</h3>
-                    <p className="text-gray-600">NCR, Delhi</p>
+                    <p className="text-gray-600">Near Sultanpur resort and fun village, in sultanpur, gurugram (hr),NCR, Delhi</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <FaClock className="text-primary text-xl mt-1" />
+                  <FaClock className="mt-1 text-xl text-primary" />
                   <div>
                     <h3 className="font-semibold">Working Hours</h3>
                     <p className="text-gray-600">Monday - Saturday: 9:00 AM - 8:00 PM</p>

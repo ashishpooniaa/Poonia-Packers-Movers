@@ -5,36 +5,36 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaInstagram
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white">
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="text-white bg-gray-900">
+      <div className="container px-4 py-12 mx-auto">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div>
-            <h3 className="text-xl font-bold mb-4">Poonia Packers & Movers</h3>
+            <h3 className="mb-4 text-xl font-bold">Poonia Packers & Movers</h3>
             <p className="text-gray-400">
               Professional packing and moving services in Gurgaon. We ensure safe and secure transportation of your belongings.
             </p>
           </div>
           
           <div>
-            <h3 className="text-xl font-bold mb-4">Quick Links</h3>
+            <h3 className="mb-4 text-xl font-bold">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-gray-400 hover:text-white transition">
+                <Link href="/" className="text-gray-400 transition hover:text-white">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-gray-400 hover:text-white transition">
+                <Link href="/services" className="text-gray-400 transition hover:text-white">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray-400 hover:text-white transition">
+                <Link href="/about" className="text-gray-400 transition hover:text-white">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-400 hover:text-white transition">
+                <Link href="/contact" className="text-gray-400 transition hover:text-white">
                   Contact
                 </Link>
               </li>
@@ -42,7 +42,7 @@ export default function Footer() {
           </div>
           
           <div>
-            <h3 className="text-xl font-bold mb-4">Contact Us</h3>
+            <h3 className="mb-4 text-xl font-bold">Contact Us</h3>
             <ul className="space-y-2">
               <li className="flex items-center gap-2 text-gray-400">
                 <FaPhone />
@@ -54,28 +54,28 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2 text-gray-400">
                 <FaMapMarkerAlt />
-                <span>Gurgaon, Haryana</span>
+                <span>Near Sultanpur resort and fun village, in sultanpur, gurugram (hr),NCR, Delhi</span>
               </li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-xl font-bold mb-4">Follow Us</h3>
+            <h3 className="mb-4 text-xl font-bold">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition">
+              <a href="#" className="text-gray-400 transition hover:text-white">
                 <FaFacebook className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition">
+              <a href="#" className="text-gray-400 transition hover:text-white">
                 <FaTwitter className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition">
+              <a href="#" className="text-gray-400 transition hover:text-white">
                 <FaInstagram className="w-6 h-6" />
               </a>
             </div>
           </div>
         </div>
         
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+        <div className="pt-8 mt-8 text-center text-gray-400 border-t border-gray-800">
           <p>&copy; {new Date().getFullYear()} Poonia Packers & Movers. All rights reserved.</p>
         </div>
       </div>
